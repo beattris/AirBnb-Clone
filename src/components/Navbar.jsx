@@ -1,11 +1,13 @@
-import logo from '../images/airbnb 1.png';
+import logo from "../images/airbnb 1.png";
 
 const Navbar = () => {
-    return(
-        <header className='header'>
-            <nav><img src={logo} alt="logo" /></nav>
-        </header>
-    )
-}
+  return (
+    <header>
+      <nav className="nav">
+        <img className="nav-logo" src={logo} alt="logo" />
+      </nav>
+    </header>
+  );
+};
 
 export default Navbar;
