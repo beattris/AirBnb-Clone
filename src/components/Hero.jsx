@@ -2,18 +2,16 @@ import heroImage from "../images/Group 77.png";
 
 const Hero = () => {
   return (
-    <div className="hero-wrapper">
-      <div className="hero-img">
+    <section className="hero">
         <img src={heroImage} alt="hero" />
-      </div>
-      <div className="hero-text">
+        <div>
         <h2>Online Experiences</h2>
-        <p>
+        <p className="hero-text">
           Join unique interactive activities led by one-of-a-kind hosts—all
           without leaving home.
         </p>
-      </div>
-    </div>
+        </div>
+    </section>
   );
 };
 
