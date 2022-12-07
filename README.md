@@ -1,6 +1,6 @@
 # AirBnb Experience page clone.
 
-(./public/airbnb.png)
+![The home view](./public/airbnb.png)
 
 ## Welcome! 👋
 After a period of setbacks, I had gone back to learning React! This is a project from Bob Ziroll's scrimba course, it has helped me a lot to refresh my knowledge of react (props, conditional rendering, mimicking data gotten from api), as it gave me room to try out building this myself! It is a clone of the AirBnb experience page, it took the project a bit further to make it responsive on all screen sizes.
