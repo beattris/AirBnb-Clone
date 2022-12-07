@@ -4,6 +4,8 @@ import star from "../images/Star 1.png";
 const Card = (props) => {
   return (
       <div className="card">
+        {props.openSpots === 0 && <div className="card--badge">SOLD OUT</div>}
+        {props.openSpots >= 1 && props.location === "Online" && <div className="card--badge">ONLINE</div>}
         <img src={require(`../images/${props.img}`)} className="card--image" alt="card" />
         <div className="card--stats">
           <img src={star} className="card--star" alt="star" style={{ marginRight: "5px"}} />

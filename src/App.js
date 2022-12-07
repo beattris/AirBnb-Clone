@@ -15,6 +15,7 @@ function App() {
         location={dataDetail.location}
         title={dataDetail.title}
         price={dataDetail.price}
+        openSpots={dataDetail.openSpots}
       />
     );
   });
