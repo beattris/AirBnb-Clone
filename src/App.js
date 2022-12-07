@@ -7,15 +7,10 @@ import data from "./data.js";
 function App() {
   const experienceCards = data.map((dataDetail) => {
     return (
+      // using dataDetail={dataDetail} to make the Card component more lean
       <Card
         key={dataDetail.id}
-        img={dataDetail.coverImg}
-        rating={dataDetail.stats.rating}
-        reviewCount={dataDetail.stats.reviewCount}
-        location={dataDetail.location}
-        title={dataDetail.title}
-        price={dataDetail.price}
-        openSpots={dataDetail.openSpots}
+        dataDetail={dataDetail}
       />
     );
   });
